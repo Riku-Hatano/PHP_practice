@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EmpReg</title>
+</head>
+<body>
+    <h2>employee form</h2>
+    <form action="Reg.php" method="POST">
+        <input type="text" name="fname" placeholder="enter your first name" required>
+        <input type="text" name="lname" placeholder="enter your last name" required>
+        <select name="position" required>
+            <option value="teacher">Teacher</option>
+            <option value="staff">Staff</option>
+            <option value="it_services">IT Services</option>
+            <option value="student_agents">Student Agents</option>
+        </select>
+        <select name="department" required>
+            <option value="education">Education</option>
+            <option value="management">Management</option>
+            <option value="it">IT</option>
+            <option value="accounting">Accounting</option>
+        </select>
+        <input type="number" name="salary" placeholder="enter your salary" required>
+        <aside>
+            yes: 
+            <input type="radio" name="marriage" value="yes" checked>
+            no
+            <input type="radio" name="marriage" value="no">
+        </aside>
+        <input type="submit" value="submit">
+    </form>
+    <a href="EmpList.php">show all employees</a>
+</body>
+</html>
