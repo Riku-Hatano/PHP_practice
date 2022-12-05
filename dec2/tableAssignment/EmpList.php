@@ -4,7 +4,6 @@
     $jsonized = json_decode($stringData, true);
     fclose($dataFile);
     $salarySum = 0;
-    $moreAvgList = [];
 ?>
 
 <!DOCTYPE html>
