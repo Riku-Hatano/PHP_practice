@@ -71,5 +71,21 @@
         echo "</ol>";
         echo "<p>average: $avg</p>";
     ?>
+    <dl>
+        <dt>something one</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vel hic voluptates exercitationem error dolores. Iure recusandae facere cumque dignissimos!</dd>
+    </dl>
+    <dl>
+        <dt>something one</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vel hic voluptates exercitationem error dolores. Iure recusandae facere cumque dignissimos!</dd>
+    </dl>
+    <dl>
+        <dt>something one</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vel hic voluptates exercitationem error dolores. Iure recusandae facere cumque dignissimos!</dd>
+    </dl>
+    <dl>
+        <dt>something one</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vel hic voluptates exercitationem error dolores. Iure recusandae facere cumque dignissimos!</dd>
+    </dl>
 </body>
 </html>
